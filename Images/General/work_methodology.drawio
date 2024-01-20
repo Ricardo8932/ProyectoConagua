@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2023-11-07T05:21:54.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="inoKi3E81R0oXCKfSLYX" version="22.0.8" type="device">
+  <diagram name="Página-1" id="LMFodgzPDeRTi_h8yl_8">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Data download&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="61.25" y="1060" width="97.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Data cleaning&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1060" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Model training&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="519" y="1060" width="102" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Model validation&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="668.5" y="1060" width="97" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Deployment&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="965" y="1060" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="TUOLOOK_BZZZ1oOCvj7o-7" target="TUOLOOK_BZZZ1oOCvj7o-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/10179/10179118.png;" parent="1" vertex="1">
+          <mxGeometry x="230" y="955" width="82" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="TUOLOOK_BZZZ1oOCvj7o-9" target="TUOLOOK_BZZZ1oOCvj7o-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/8439/8439003.png;" parent="1" vertex="1">
+          <mxGeometry x="55" y="941" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="TUOLOOK_BZZZ1oOCvj7o-11" target="TUOLOOK_BZZZ1oOCvj7o-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/128/2519/2519393.png;" parent="1" vertex="1">
+          <mxGeometry x="686" y="962" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1508/1508878.png;" parent="1" vertex="1">
+          <mxGeometry x="980" y="950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="TUOLOOK_BZZZ1oOCvj7o-14" target="TUOLOOK_BZZZ1oOCvj7o-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1878/1878451.png;" parent="1" vertex="1">
+          <mxGeometry x="373.25" y="956" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="TUOLOOK_BZZZ1oOCvj7o-16" target="TUOLOOK_BZZZ1oOCvj7o-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-16" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn0.iconfinder.com/data/icons/data-science-color/64/predictive-modeling-machine-learning-system-512.png;" parent="1" vertex="1">
+          <mxGeometry x="532" y="958" width="76" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn2.iconfinder.com/data/icons/data-visualization-color/64/data-visualization-chart-report-pie-presentation-512.png;" parent="1" vertex="1">
+          <mxGeometry x="830" y="960" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Software development&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="810.5" y="1060" width="111" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="902" y="995.5" as="sourcePoint" />
+            <mxPoint x="978" y="995.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-20" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="42.5" y="930" width="1055" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TUOLOOK_BZZZ1oOCvj7o-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Data preprocessing&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1060" width="124.25" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
