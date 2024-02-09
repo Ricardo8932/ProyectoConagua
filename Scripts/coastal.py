@@ -77,7 +77,8 @@ df_coastal = df_coastal.dropna()
 # Verify that rows with missing values have been removed from the coastal DataFrame
 df_coastal.info()
 
-#poner aqui el codigo que descarge el archivo de excel preprocesado, con los metadatos y contaminantes
+# Exporting preprocessed dataset to Excel file.
+# This code creates an Excel file of the preprocessed dataset, which has no missing values or unusual characters.
 df_coastal.to_excel("coastal_preprocessed.xlsx")
 
 # Select the columns you want to include in the heatmap
@@ -1172,7 +1173,7 @@ print('After the balancing X:', Counter(X_train_coa_b))
 Split data into training and test set
 """
 
-X_train_b_coa_xgb, X_test_b_coa_xgb, y_train_b_coa_xgb, y_test_b_coa_xgb = train_test_split(X_train_coastal, y_train_coastal, test_size=0.2, random_state=42)
+X_train_b_coa_xgb, X_test_b_coa_xgb, y_train_b_coa_xgb, y_test_b_coa_xgb = train_test_split(X_train_coa_b, y_train_coa_b, test_size=0.2, random_state=42)
 
 """Feature Standardization for Coastal Dataset using StandardScaler"""
 
@@ -1341,7 +1342,7 @@ with open('scaler_b_coa_xgb.pkl', 'wb') as scaler_file:
 Split data into training and test set
 """
 
-X_train_b_coa_svm, X_test_b_coa_svm, y_train_b_coa_svm, y_test_b_coa_svm = train_test_split(X_train_coastal, y_train_coastal, test_size=0.2, random_state=42)
+X_train_b_coa_svm, X_test_b_coa_svm, y_train_b_coa_svm, y_test_b_coa_svm = train_test_split(X_train_coa_b, y_train_coa_b, test_size=0.2, random_state=42)
 
 """Feature Standardization for Coastal Dataset using StandardScaler"""
 
@@ -1511,7 +1512,7 @@ with open('scaler_b_coa_svm.pkl', 'wb') as scaler_file:
 Split data into training and test set
 """
 
-X_train_b_coa_knn, X_test_b_coa_knn, y_train_b_coa_knn, y_test_b_coa_knn = train_test_split(X_train_coastal, y_train_coastal, test_size=0.2, random_state=42)
+X_train_b_coa_knn, X_test_b_coa_knn, y_train_b_coa_knn, y_test_b_coa_knn = train_test_split(X_train_coa_b, y_train_coa_b, test_size=0.2, random_state=42)
 
 """Feature Standardization for coastal Dataset using StandardScaler"""
 
@@ -1680,7 +1681,7 @@ with open('scaler_b_coa_knn.pkl', 'wb') as scaler_file:
 Split data into training and test set
 """
 
-X_train_b_coa_dt, X_test_b_coa_dt, y_train_b_coa_dt, y_test_b_coa_dt = train_test_split(X_train_coastal, y_train_coastal, test_size=0.2, random_state=42)
+X_train_b_coa_dt, X_test_b_coa_dt, y_train_b_coa_dt, y_test_b_coa_dt = train_test_split(X_train_coa_b, y_train_coa_b, test_size=0.2, random_state=42)
 
 """Feature Standardization for coastal Dataset using StandardScaler"""
 
@@ -1850,7 +1851,7 @@ with open('scaler_b_coa_dt.pkl', 'wb') as scaler_file:
 Split data into training and test set
 """
 
-X_train_b_coa_mlr, X_test_b_coa_mlr, y_train_b_coa_mlr, y_test_b_coa_mlr = train_test_split(X_train_coastal, y_train_coastal, test_size=0.2, random_state=42)
+X_train_b_coa_mlr, X_test_b_coa_mlr, y_train_b_coa_mlr, y_test_b_coa_mlr = train_test_split(X_train_coa_b, y_train_coa_b, test_size=0.2, random_state=42)
 
 """Feature Standardization for coastal Dataset using StandardScaler"""
 
