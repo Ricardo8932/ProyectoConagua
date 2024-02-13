@@ -12,7 +12,9 @@ Original file is located at
 
 <p style="text-align: justify;">La Comisión Nacional del Agua (CONAGUA) es una dependencia del gobierno de México, encargada de mmonitorear y gestionar los cuerpos de aguas superficiales (lóticos, lénticos y costeros) y subterráneos del país</p>
 
-<p style="text-align: justify;">La calidad del agua en sitios superficiales y subterráneos se categoriza a través de un semaforo el cual considera 3 colores, verde, amarillo y rojo, dependiendo el cumplimiento de los contaminantes con la regulación mexicana (DOF, 2023)</p>
+<p style="text-align: justify;">El análisis de la calidad del agua superficial consideró 8 parámetros indicadores: Demanda Bioquímica de Oxígeno a cinco días (DBO5), Demanda Química de Oxígeno (DQO), Sólidos Suspendidos Totales (SST), Coliformes fecales (CF), Escherichia coli, (E_COLI), Enterococos fecales (ENTEROC_FEC), porcentaje de saturación de Oxígeno Disuelto (OD%) y Toxicidad aguda (TOX).</p>
+
+<p style="text-align: justify;">La calidad del agua en sitios superficiales y subterráneos se categoriza a través de un semaforo el cual considera 3 colores, verde, amarillo y rojo, dependiendo el cumplimiento de los contaminantes con la regulación mexicana (DOF, 2023), amarillo cuando se incumple uno o más de los siguientes parámetros: E_COLI, CF, SST y OD%; rojo cuando existe incumplimiento en uno o más de los siguientes parámetros: DBO5, DQO, TOX y ENTEROC_FEC.</p>
 
 <h2>Planteamiento del problema y justificación</h2>
 
